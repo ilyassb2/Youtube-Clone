@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg" />
+            <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" />
+          <div class="tooltip">Notifications</div>
+          <div class="notifications-count">3</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="Photos/ProfileMe.jpg"
+        />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Photos/flutter.png" />
+            <div class="video-time">55:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="Photos/freeCClogo.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Flutter Mobile App + Node.js Back End Tutorial – Code an Amazon
+                Clone [Full Course]
+              </p>
+              <p class="video-author">freeCodeCamp.org</p>
+              <p class="video-stats">1.1M views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Photos/Ajaxthumb.jpg" />
+            <div class="video-time">3:21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="Photos/ajaxlogo.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Highlights sc Heerenveen - Ajax</p>
+              <p class="video-author">AFC Ajax</p>
+              <p class="video-stats">180k Views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Photos/arminn.jpg" />
+            <div class="video-time">45:33</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="Photos/Arminlogo.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Armin van Buuren live at Tomorrowland Winter 2019
+              </p>
+              <p class="video-author">Armin van Buuren</p>
+              <p class="video-stats">12M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Photos/Mrrobot.jpg" />
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="Photos/Mrrobotvidlogo.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Inspirations of MR. ROBOT – Wisecrack Edition
+              </p>
+              <p class="video-author">Wisecrack</p>
+              <p class="video-stats">711k views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Photos/Vivalavida.jpg" />
+            <div class="video-time">4:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="Photos/ColdPlogo.webp" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Coldplay - Viva La Vida (Official Video)
+              </p>
+              <p class="video-author">Coldplay</p>
+              <p class="video-stats">749M views &#183; 13 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Photos/Arsenal.jpg" />
+            <div class="video-time">3:51</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="Photos/FAlogo.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Highlights | Arsenal v Manchester City | Emirates FA Cup Semi
+                Final 2019-20
+              </p>
+              <p class="video-author">The Emirates FA Cup</p>
+              <p class="video-stats">197k views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Photos/food.jpg" alt="" />
+            <div class="video-time">5:32</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="Icons/foodicon.jpg" class="profile-picture" alt="" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                TASTIEST CHICKEN WRAP: PERFECT CHICKEN WRAP|
+              </p>
+              <p class="video-autor">Tasty</p>
+              <p class="video-stats">372k Views &#xB7; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Photos/teocri.jpg" alt="" />
+            <div class="video-time">7:33</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img src="Photos/FAlogo.jpg" class="profile-picture" alt="" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Most Beautiful Dribbling Skills & Tricks #8
+              </p>
+              <p class="video-autor">Teo CRi</p>
+              <p class="video-stats">3M Views &#xB7; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Photos/figma.png" alt="" />
+          <div class="video-time">40:52</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="Photos/freeCClogo.jpg" class="profile-picture" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Figma Variants – Design a Scalable Mobile App [Full UX Course]
+            </p>
+            <p class="video-autor">freeCodeCamp.org</p>
+            <p class="video-stats">61k Views &#xB7; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Photos/rock.jpg" alt="" />
+          <div class="video-time">40:52</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="Icons/therockprofile.jpg" class="profile-picture" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+                The Rock's Ultimate Workout
+            </p>
+            <p class="video-autor">The Rock</p>
+            <p class="video-stats">20M Views &#xB7; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Photos/freeCodeC1.png" alt="" />
+          <div class="video-time">55:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="Photos/freeCClogo.jpg" class="profile-picture" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Figma Variants – Design a Scalable Mobile App [Full UX Course]
+            </p>
+            <p class="video-autor">freeCodeCamp.org</p>
+            <p class="video-stats">92k Views &#xB7; 7 months ago</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Photos/velonica.jpg" alt="" />
+          <div class="video-time">2:10</div>
+        </div>
+        <div class="section-2-description grid">
+          <div class="channel-picture">
+            <img
+              src="Icons/crunchyrolllogo.jpg"
+              class="profile-picture"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Bleach - Opening 9 | Velonica</p>
+            <p class="video-autor">Crunchyroll Collection</p>
+            <p class="video-stats">7M Views &#xB7; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+    </main>
+  </body>
+</html>
